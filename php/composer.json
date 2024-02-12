@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        },
+        "files": [
+            "app/helpers/functions.php"
+        ]
+    },
+    "require": {
+        "infobip/infobip-api-php-client": "^5.1"
+    }
+}
